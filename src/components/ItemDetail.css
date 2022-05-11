@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.imgProd {
+    width: 250px;
+    border-radius: 20px; 
+}
+
+.contenedor1 {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center; 
+}
+
+@media (min-width: 1370px) {
+    .contenedor1 {
+        display: grid;
+        grid-template-columns: 450px 5fr; 
+    }
+}
+
+@media (min-width: 748px) and (max-width: 1369px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    .contenedor1 {
+        display: grid;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
