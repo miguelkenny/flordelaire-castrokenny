@@ -62,7 +62,6 @@ export const Auth = () => {
 
     function signInWithGoogle(){
         signInWithRedirect(auth, googleProvider);
-        email=auth.currentUser.displayName;
     }
 
     function signOutUser(){
