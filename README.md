@@ -50,6 +50,7 @@ Por ahora disponemos de dos categorías de productos:
 ## Como Comprar?
 
 Una vez que inicias sesión, escoge el/los productos que desees junto con la cantidad. Cuando esté todo listo, visita el carrito de compras para revisar tu pedido. Podrás modificar el mismo agregando o eliminando productos.<br/>
-Despues, continúa hacia el Checkout, completa todos los datos solicitados y finaliza tu compra.<br/>
+Despues, continúa hacia el Checkout, completa todos los datos solicitados y una vez que tu compra está finalizada, verás el ID de la misma.<br/>
+
 
 ![img](https://i.postimg.cc/8c8QtdbG/finalizar-compra.jpg)
