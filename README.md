@@ -45,4 +45,4 @@ Por ahora disponemos de dos categorías de productos:
 
 * Para poder realizar compras debes registrar una cuenta. Puedes hacerlo con tu correo electrónico preferido o simplemente puede iniciar sesión con tu cuenta de Google.
 
-![Inicio de Sesión](./public/assets/login.gif)
+![Inicio de Sesión](./public/assets/CPT2205102200-1818x249.gif)
