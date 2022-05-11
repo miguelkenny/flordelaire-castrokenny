@@ -46,3 +46,8 @@ Por ahora disponemos de dos categorías de productos:
 * Para poder realizar compras debes registrar una cuenta. Puedes hacerlo con tu correo electrónico preferido o simplemente puede iniciar sesión con tu cuenta de Google.
 
 ![Inicio de Sesión](./public/assets/CPT2205102200-1818x249.gif)
+<br/><br/>
+## Como Comprar?
+
+Una vez que inicias sesión, escoge el/los productos que desees junto con la cantidad. Cuando esté todo listo, visita el carrito de compras para revisar tu pedido. Podrás modificar el mismo agregando o eliminando productos.<br/>
+Despues, continúa hacia el Checkout, completa todos los datos solicitados y finaliza tu compra. 
