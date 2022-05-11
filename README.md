@@ -52,5 +52,11 @@ Por ahora disponemos de dos categorías de productos:
 Una vez que inicias sesión, escoge el/los productos que desees junto con la cantidad. Cuando esté todo listo, visita el carrito de compras para revisar tu pedido. Podrás modificar el mismo agregando o eliminando productos.<br/>
 Despues, continúa hacia el Checkout, completa todos los datos solicitados y una vez que tu compra está finalizada, verás el ID de la misma.<br/>
 
+![Navegando en la tienda](./public/assets/CPT2205110236-720x367.gif)
+<br/>
 
+### Compra Finalizada
 ![img](https://i.postimg.cc/8c8QtdbG/finalizar-compra.jpg)
+
+#### Visita la tienda
+[Urnas Flor Del Aire](https://flordelaire-castrokenny.vercel.app/)
