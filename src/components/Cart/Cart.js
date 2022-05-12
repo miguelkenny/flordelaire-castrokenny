@@ -26,7 +26,7 @@ export const Cart = () => {
                                                     <p className="m-0 fs-6 card-text">Cantidad: {p.qty}</p>
                                                     <p className="m-0 fs-6 card-text">Precio Unitario: ${p.precio}</p>
                                                     <p className="mt-1 fs-5">Subtotal: ${p.qty * p.precio}</p>
-                                                    <button className="btn btn-primary" onClick={()=>removeItem(p.id)}>Quitar del carrito</button>
+                                                    <button className="btn btn-primary" onClick={()=>removeItem(p.id)}>Quitar Producto</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -38,7 +38,12 @@ export const Cart = () => {
                             <div>
                                 <h4 className="mt-4">Cantidad de Productos: {cantProd}</h4>
                                 <h4 className="mt-4">Total Compra (Con Impuestos): ${sumarCompra()}</h4>
-                                <button onClick={clear} className="btn btn-danger m-2 mb-2">Vaciar Carrito</button>
+                                {cantProd > 1 ? (
+                                    <button onClick={clear} className="btn btn-danger m-2 mb-2">Vaciar Carrito</button>
+                                ):(
+                                    <button className="btn btn-secondary m-2 mb-2 disabled" disabled>Vaciar Carrito</button>
+                                )}
+                                
                                 <NavLink to='/checkout'>
                                 <button className="btn btn-success m-2 mb-2">Continuar al Ceckout</button>
                                 </NavLink>

@@ -33,9 +33,14 @@ const App = ()=> {
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<CheckOut />} />
           <Route path="*" element={
-                            <main style={{ padding: "1rem" }}>
-                              <p>La página que buscas no existe!</p>
-                            </main>
+                            <div className="container text-center">
+                              <main style={{ padding: "1rem" }}>
+                                <p className="mt-4 display-4">La página que buscas no existe!</p>
+                                <div>
+                                  <img src="./assets/404.jpg" alt="404" />
+                                </div>
+                              </main>
+                            </div>
                           }/>
         </Routes>
       </CustomProvider>
