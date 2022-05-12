@@ -12,23 +12,21 @@ import {Cart} from './components/Cart/Cart';
 import {CheckOut} from './components/CheckOut/CheckOut';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CustomProvider from './components/CartContext';
+import CustomProvider from './components/Cart/CartContext';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = ()=> {
-  const welcome = "";
-  const name = "";
 
   return ( 
     <BrowserRouter>
       <CustomProvider>
         <NavLogin />
-        <NavBar welcome={welcome} name={name}/>
+        <NavBar/>
         <ScrollButton/>
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
-          <Route path="/category/:category" element={<ItemListContainer welcome={welcome} name={name}/>} />
+          <Route path="/category/:category" element={<ItemListContainer />} />
           <Route path="store/product/detail/:id" element={<ItemDetailContainer />} />
           <Route path="page/about" element={<About />} />
           <Route path="page/contact" element={<Contact />} />

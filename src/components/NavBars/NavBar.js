@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import Logo from '../img/logo.png';
+import Logo from '../../img/logo.png';
 import './NavBar.css';
 import ButtonCategory from './ButtonCategory';
 import {CartWidget} from '../Cart/CartWidget';

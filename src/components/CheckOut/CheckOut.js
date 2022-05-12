@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import {NavLink} from 'react-router-dom';
-import {contexto} from '../CartContext';
+import {contexto} from '../Cart/CartContext';
 import {db, app} from '../../firebase/Firebase';
 import {addDoc, collection, serverTimestamp, doc, updateDoc, getDoc} from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
