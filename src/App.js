@@ -1,13 +1,13 @@
-import NavBar from './components/NavBar';
-import NavLogin from './components/NavLogin';
+import NavBar from './components/NavBars/NavBar';
+import NavLogin from './components/NavBars/NavLogin';
 
-import ItemListContainer from './components/ItemListContainer';
-import { ItemDetailContainer } from './components/ItemDetailContainer';
+import ItemListContainer from './components/Items/ItemListContainer';
+import { ItemDetailContainer } from './components/Items/ItemDetailContainer';
 import ScrollButton from './components/ScrollButton';
 import {Footer} from './components/Footer';
 
-import { About } from './components/About';
-import {Contact } from './components/Contact';
+import { About } from './components/Pages/About';
+import {Contact } from './components/Pages/Contact';
 import {Cart} from './components/Cart/Cart';
 import {CheckOut} from './components/CheckOut/CheckOut';
 

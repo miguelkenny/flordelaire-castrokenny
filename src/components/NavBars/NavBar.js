@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Logo from '../img/logo.png';
 import './NavBar.css';
 import ButtonCategory from './ButtonCategory';
-import {CartWidget} from '../CartComponnets/CartWidget';
+import {CartWidget} from '../Cart/CartWidget';
 import { NavLink } from 'react-router-dom';
 
 const pages = [
