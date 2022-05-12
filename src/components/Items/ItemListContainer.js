@@ -4,7 +4,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import {useParams} from "react-router-dom";
 
 import { getDocs, collection } from "firebase/firestore";
-import { db } from "../firebase/Firebase";
+import { db } from "../../firebase/Firebase";
 
 const ItemListContainer = () => {
     

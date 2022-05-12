@@ -1,5 +1,5 @@
 import { Navbar, Container } from 'react-bootstrap';
-import { Auth } from './Auth';
+import { Auth } from '../Auth';
 
 const NavLogin = () => {
 
