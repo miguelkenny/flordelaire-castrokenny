@@ -17,12 +17,10 @@ const googleProvider = new GoogleAuthProvider();
 export const Auth = () => {
     const [usuarioGlobal, setUsuarioGlobal] = useState(null);
     const [estaRegistrandose, setEstaRegistrandose] = useState(false);
-    let email = "";
 
     onAuthStateChanged(auth, (userFirebase) => {
         if(userFirebase){
             setUsuarioGlobal(userFirebase);
-            email = auth.currentUser;
         } else {
             setUsuarioGlobal(null);
         }
@@ -43,7 +41,7 @@ export const Auth = () => {
 
     async function handlerSubmit(e){
         e.preventDefault()
-        email=e.target.Email1.value;
+        const email=e.target.Email1.value;
         const password = e.target.Password1.value;
     
         if(estaRegistrandose){
