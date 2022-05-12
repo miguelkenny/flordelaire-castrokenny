@@ -22,8 +22,8 @@ El mismo es una Simple Page Application desarrollada con HTML, CSS, Bootstrap, J
 ## Instalación Del Proyecto
 
 * Clonar el repositorio
-* Utilizar >npm install en el directorio raíz.
-* Luego ejecutar el comando <npm start>
+* Utilizar `npm install` en el directorio raíz.
+* Luego ejecutar el comando `npm start`
 
 ## Pantallas
 
