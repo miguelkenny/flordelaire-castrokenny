@@ -22,7 +22,7 @@ export const Item = ({ product }) => {
                             <button type="button" className="btn btn-primary">Ver Detalle</button>
                         </NavLink>
                     ) : (
-                        <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">No Disponible Ahora Mismo!</Tooltip>}>
+                        <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">No Disponible en este momento!</Tooltip>}>
                             <span className="d-inline-block">
                                 <Button disabled style={{ pointerEvents: 'none' }}>
                                     Sin Stock

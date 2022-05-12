@@ -86,14 +86,13 @@ export const CheckOut = () => {
 
     return (
         <div className="container">
-            <div className="py-5 text-center">
-                <img className="d-block mx-auto mb-4" src="./logo.png" alt="Logo Urnas Flor Del aire" width="120" height="120"/>
-                <h2>Checkout</h2>
-                <p className="lead">Muchas gracias por elegirnos. Estás en el último paso para adquirir los productos de Urnas Flor Del Aire. Te guiaremos paso a paso para concretar tu compra de manera exitosa!</p>
-            </div>
-            
             { !successSale ? (
-            
+                <>
+                <div className="py-5 text-center">
+                    <img className="d-block mx-auto mb-4" src="./logo.png" alt="Logo Urnas Flor Del aire" width="120" height="120"/>
+                    <h2>Checkout</h2>
+                    <p className="lead">Muchas gracias por elegirnos. Estás en el último paso para adquirir los productos de Urnas Flor Del Aire. Te guiaremos paso a paso para concretar tu compra de manera exitosa!</p>
+                </div>
                 <div className="row g-5">
                     <div className="col-md-5 col-lg-4 order-md-last">
                         <h4 className="d-flex justify-content-between">
@@ -315,9 +314,10 @@ export const CheckOut = () => {
                         </form>
                     </div>
                 </div>
+                </>
             )
             :(                
-                <SuccessCheckOut idSale={idSale}/>                
+                <SuccessCheckOut idSale={idSale} name={name}/>                
             )}
         </div>
     )
